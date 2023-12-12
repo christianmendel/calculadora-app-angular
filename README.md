@@ -1,27 +1,35 @@
-# Calculadora
+## 🖩 Calculadora
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.9.
+⚙️ Funcionalidades
 
-## Development server
+• Calculadora simples, com funções de adição, subtração, multiplicação, divisão.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+🛠️ Ferramentas
 
-## Code scaffolding
+• HTML
+• CSS
+• Angular
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+📖 Documentação
 
-## Build
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
+https://developer.mozilla.org/en-US/docs/Web/CSS
+https://angular.io/guide/what-is-angular
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+🚀 Começando
 
-## Running unit tests
+Sinta-se à vontade para clonar este repositório e testá-lo em sua máquina. Siga os passos abaixo para começar:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+1- Clone o Repositório:
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
 
-## Running end-to-end tests
+2- Acesse o Diretório:
+cd nome-do-repositorio
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+3- Instale as Dependências (se necessário):
+Dependendo do projeto, pode ser necessário instalar dependências. Verifique o arquivo de documentação ou execute comandos como npm install ou pip install -r requirements.txt.
 
-## Further help
+4 - Execute o Projeto:
+Siga as instruções específicas do projeto para iniciar ou executar o aplicativo.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Aproveite explorar o projeto e boa codificação! 🚀
