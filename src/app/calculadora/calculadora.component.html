@@ -1,0 +1,139 @@
+<div class="calculator card">
+  <input
+    *ngIf="!resultado"
+    type="text"
+    class="calculator-screen z-depth-1"
+    [(ngModel)]="display"
+    disabled
+  />
+  <input
+    *ngIf="!!resultado"
+    type="text"
+    class="calculator-screen z-depth-1"
+    [(ngModel)]="resultado"
+    disabled
+  />
+
+  <div class="calculator-keys">
+    <button
+      type="button"
+      class="operator btn btn-info"
+      (click)="definirOperacao('+')"
+    >
+      +
+    </button>
+    <button
+      type="button"
+      class="operator btn btn-info"
+      (click)="definirOperacao('-')"
+    >
+      -
+    </button>
+    <button
+      type="button"
+      class="operator btn btn-info"
+      (click)="definirOperacao('x')"
+    >
+      &times;
+    </button>
+    <button
+      type="button"
+      class="operator btn btn-info"
+      (click)="definirOperacao('/')"
+    >
+      &divide;
+    </button>
+
+    <button
+      type="button"
+      class="btn btn-light waves-effect"
+      (click)="adicionarNumero('7')"
+    >
+      7
+    </button>
+    <button
+      type="button"
+      class="btn btn-light waves-effect"
+      (click)="adicionarNumero('8')"
+    >
+      8
+    </button>
+    <button
+      type="button"
+      class="btn btn-light waves-effect"
+      (click)="adicionarNumero('9')"
+    >
+      9
+    </button>
+
+    <button
+      type="button"
+      class="btn btn-light waves-effect"
+      (click)="adicionarNumero('4')"
+    >
+      4
+    </button>
+    <button
+      type="button"
+      class="btn btn-light waves-effect"
+      (click)="adicionarNumero('5')"
+    >
+      5
+    </button>
+    <button
+      type="button"
+      class="btn btn-light waves-effect"
+      (click)="adicionarNumero('6')"
+    >
+      6
+    </button>
+
+    <button
+      type="button"
+      class="btn btn-light waves-effect"
+      (click)="adicionarNumero('1')"
+    >
+      1
+    </button>
+    <button
+      type="button"
+      class="btn btn-light waves-effect"
+      (click)="adicionarNumero('2')"
+    >
+      2
+    </button>
+    <button
+      type="button"
+      class="btn btn-light waves-effect"
+      (click)="adicionarNumero('3')"
+    >
+      3
+    </button>
+
+    <button type="button" value="0" class="btn btn-light waves-effect">
+      0
+    </button>
+    <button
+      type="button"
+      class="decimal function btn btn-secondary"
+      (click)="adicionarNumero('.')"
+    >
+      .
+    </button>
+    <button
+      type="button"
+      class="all-clear function btn btn-danger btn-sm"
+      (click)="limpar()"
+    >
+      AC
+    </button>
+
+    <button
+      type="button"
+      class="equal-sign operator btn btn-default"
+      (click)="calcular()"
+    >
+      =
+    </button>
+  </div>
+</div>
